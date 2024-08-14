@@ -4,6 +4,7 @@ import Navbar from "../components/HomePage/Navbar";
 import Banner from "../components/HomePage/Banner";
 import Services from "../components/HomePage/Services";
 import AboutUs from "../components/HomePage/AboutUs";
+import OurClients from "../components/HomePage/OurClients";
 
 function HomePageCompound() {
   return (
@@ -12,6 +13,7 @@ function HomePageCompound() {
       <Banner />
       <Services />
       <AboutUs />
+      <OurClients />
     </Wrapper>
   );
 }
